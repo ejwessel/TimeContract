@@ -2,7 +2,9 @@ const TimeContract = artifacts.require('./TimeContract');
 
 contract('TimeContract', async (accounts) =>  {
   before('deploy TimeContract', async() => {
+    //Sat Mar  2 19:00:00 EST 2019
     instance_pass = await TimeContract.new(1551571200);
+    //Tue Mar 19 20:00:00 EDT 2019
     instance_fail = await TimeContract.new(1553040000);
   });
 
