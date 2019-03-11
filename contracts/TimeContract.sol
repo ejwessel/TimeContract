@@ -11,7 +11,7 @@ contract TimeContract {
   * timeLockedFunction will return true if accessible given the time limitation
   */
   function timeLockedFunction() external view returns (bool){
-    require(now >= startTime, "now is before the allowed start time");
+    require(now >= startTime, "current time is before the allowed start time");
     return true;
   }
 }
