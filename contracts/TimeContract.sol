@@ -10,7 +10,7 @@ contract TimeContract {
   /**
   * timeFunction will return true if now is after the given start time
   */
-  function timeFunction() external view returns (bool){
+  function isNowAfter() external view returns (bool){
       return (now >= startTime);
   }
 }
