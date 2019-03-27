@@ -1,5 +1,4 @@
 const TimeContract = artifacts.require('./TimeContract');
-const truffleAssert = require('truffle-assertions');
 const helper = require('./utils/utils.js');
 
 const Sun_Feb_10_00_00_00_UTC_2019 = 1549756800;
