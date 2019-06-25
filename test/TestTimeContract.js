@@ -1,5 +1,5 @@
 const TimeContract = artifacts.require('./TimeContract');
-const helper = require('./utils/utils.js');
+const helper = require('ganache-time-traveler');
 
 const Sun_Feb_10_00_00_00_UTC_2019 = 1549756800;
 const Wed_Mar_20_00_00_00_UTC_2019 = 1553040000;
