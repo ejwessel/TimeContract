@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/ejwessel/TimeContract#readme",
   "dependencies": {
-    "truffle-assertions": "^0.8.0"
+    "truffle-assertions": "^0.8.0",
+    "ganache-time-traveler": "github:ejwessel/GanacheTimeTraveler"
   }
 }
